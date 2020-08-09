@@ -1,7 +1,7 @@
 {% set prefix = "spacy-model-" %}
 {% set lang = "nl" %}
 {% set name = lang + "_core_news" %}
-{% set version = "2.0.0" %}
+{% set version = "2.3.0" %}
 
 package:
   name: {{ prefix }}{{ lang|lower }}
@@ -10,7 +10,7 @@ package:
 source:
   - folder: sm
     url: https://github.com/explosion/spacy-models/releases/download/{{ name }}_sm-{{ version }}/{{ name }}_sm-{{ version }}.tar.gz
-    sha256: 1f79eedcb397f9bfdce88b771369ba576664daba111411e750bd65746530bd58
+    sha256: d2765b86cf8434dd5a7c1ffaaa591d90ae967738f71588baf240b263eff99b2a
 
 build:
   noarch: python
@@ -21,7 +21,7 @@ test:
     - echo "make lint happy"
 
 outputs:
-  - name: {{prefix}}{{ name }}_{{ size }}
+  - name: {{ prefix }}{{ name }}_{{ size }}
     script: build.sh  # [unix]
     script: build.bat  # [win]
     requirements:
@@ -43,7 +43,7 @@ outputs:
 about:
   home: https://spacy.io
   license: CC BY-SA 4.0
-  summary: 'Dutch multi-task CNN trained on the Universal Dependencies and WikiNER corpus.'
+  summary: Dutch multi-task CNN trained on the Universal Dependencies and WikiNER corpus.
 
   doc_url: https://spacy.io/models/nl
 
