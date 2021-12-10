@@ -8,8 +8,14 @@ jobs:
     vmImage: vs2017-win2016
   strategy:
     matrix:
-      win_64_:
-        CONFIG: win_64_
+      win_64_sizesm:
+        CONFIG: win_64_sizesm
+        UPLOAD_PACKAGES: 'True'
+      win_64_sizemd:
+        CONFIG: win_64_sizemd
+        UPLOAD_PACKAGES: 'True'
+      win_64_sizelg:
+        CONFIG: win_64_sizelg
         UPLOAD_PACKAGES: 'True'
   timeoutInMinutes: 360
   variables:
@@ -72,7 +78,7 @@ jobs:
         call activate base
         run_conda_forge_build_setup
       displayName: conda-forge build setup
-    
+
 
     # Special cased version setting some more things!
     - script: |
