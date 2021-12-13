@@ -1,7 +1,7 @@
 {% set prefix = "spacy-model-" %}
 {% set lang = "nl" %}
 {% set name = lang + "_core_news" %}
-{% set version = "3.1.0" %}
+{% set version = "3.2.0" %}
 
 package:
   name: {{ prefix }}{{ lang|lower }}
@@ -10,13 +10,13 @@ package:
 source:
   - folder: sm
     url: https://github.com/explosion/spacy-models/releases/download/{{ name }}_sm-{{ version }}/{{ name }}_sm-{{ version }}.tar.gz
-    sha256: fb215dc656ca9fbbc0864b4fa3cb58b28e3593f9234cb7c558aed07468d30893
+    sha256: 0ffee65f17c64dc971162330e6c7d16e546b37ed55564ba166ffbabc5040f8c2
   - folder: md
     url: https://github.com/explosion/spacy-models/releases/download/{{ name }}_md-{{ version }}/{{ name }}_md-{{ version }}.tar.gz
-    sha256: d0fb879a99c0215ee68a379e4874126ef4d7458ff10f2cfb5ce33564878e82cb
+    sha256: bceae90e40fbaf0c4c7329131a7caa8aa1b37dd4e58406d5801cfee15c68e0f5
   - folder: lg
     url: https://github.com/explosion/spacy-models/releases/download/{{ name }}_lg-{{ version }}/{{ name }}_lg-{{ version }}.tar.gz
-    sha256: b41488cec2898cf95f12687c5c430f84c7bdc117cc54649a2689b29d5e24e7ad
+    sha256: 6eb8bb9eb4f23b1e5904fc873890c5434e7683ef8543b137338f2c4266cec2e0
 
 build:
   number: 0
@@ -48,7 +48,7 @@ outputs:
 about:
   home: https://spacy.io
   license: CC-BY-SA-4.0
-  summary: 'Dutch multi-task CNN trained on the Universal Dependencies and WikiNER corpus.'
+  summary: Dutch multi-task CNN trained on the Universal Dependencies and WikiNER corpus.
   license_file: LICENSE
   doc_url: https://spacy.io/models/nl
 
