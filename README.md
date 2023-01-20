@@ -5,7 +5,7 @@ Home: https://spacy.io
 
 Package license: CC-BY-SA-4.0
 
-Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/spacy-model-nl-feedstock/blob/master/LICENSE.txt)
+Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/spacy-model-nl-feedstock/blob/main/LICENSE.txt)
 
 Summary: Dutch multi-task CNN trained on the Universal Dependencies and WikiNER corpus.
 
@@ -22,8 +22,8 @@ Current build status
     <td>
       <details>
         <summary>
-          <a href="https://dev.azure.com/conda-forge/feedstock-builds/_build/latest?definitionId=6337&branchName=master">
-            <img src="https://dev.azure.com/conda-forge/feedstock-builds/_apis/build/status/spacy-model-nl-feedstock?branchName=master">
+          <a href="https://dev.azure.com/conda-forge/feedstock-builds/_build/latest?definitionId=6337&branchName=main">
+            <img src="https://dev.azure.com/conda-forge/feedstock-builds/_apis/build/status/spacy-model-nl-feedstock?branchName=main">
           </a>
         </summary>
         <table>
@@ -31,253 +31,190 @@ Current build status
           <tbody><tr>
               <td>linux_64_python3.10.____cpythonsizelg</td>
               <td>
-                <a href="https://dev.azure.com/conda-forge/feedstock-builds/_build/latest?definitionId=6337&branchName=master">
-                  <img src="https://dev.azure.com/conda-forge/feedstock-builds/_apis/build/status/spacy-model-nl-feedstock?branchName=master&jobName=linux&configuration=linux_64_python3.10.____cpythonsizelg" alt="variant">
+                <a href="https://dev.azure.com/conda-forge/feedstock-builds/_build/latest?definitionId=6337&branchName=main">
+                  <img src="https://dev.azure.com/conda-forge/feedstock-builds/_apis/build/status/spacy-model-nl-feedstock?branchName=main&jobName=linux&configuration=linux%20linux_64_python3.10.____cpythonsizelg" alt="variant">
                 </a>
               </td>
             </tr><tr>
               <td>linux_64_python3.10.____cpythonsizemd</td>
               <td>
-                <a href="https://dev.azure.com/conda-forge/feedstock-builds/_build/latest?definitionId=6337&branchName=master">
-                  <img src="https://dev.azure.com/conda-forge/feedstock-builds/_apis/build/status/spacy-model-nl-feedstock?branchName=master&jobName=linux&configuration=linux_64_python3.10.____cpythonsizemd" alt="variant">
+                <a href="https://dev.azure.com/conda-forge/feedstock-builds/_build/latest?definitionId=6337&branchName=main">
+                  <img src="https://dev.azure.com/conda-forge/feedstock-builds/_apis/build/status/spacy-model-nl-feedstock?branchName=main&jobName=linux&configuration=linux%20linux_64_python3.10.____cpythonsizemd" alt="variant">
                 </a>
               </td>
             </tr><tr>
               <td>linux_64_python3.10.____cpythonsizesm</td>
               <td>
-                <a href="https://dev.azure.com/conda-forge/feedstock-builds/_build/latest?definitionId=6337&branchName=master">
-                  <img src="https://dev.azure.com/conda-forge/feedstock-builds/_apis/build/status/spacy-model-nl-feedstock?branchName=master&jobName=linux&configuration=linux_64_python3.10.____cpythonsizesm" alt="variant">
-                </a>
-              </td>
-            </tr><tr>
-              <td>linux_64_python3.7.____cpythonsizelg</td>
-              <td>
-                <a href="https://dev.azure.com/conda-forge/feedstock-builds/_build/latest?definitionId=6337&branchName=master">
-                  <img src="https://dev.azure.com/conda-forge/feedstock-builds/_apis/build/status/spacy-model-nl-feedstock?branchName=master&jobName=linux&configuration=linux_64_python3.7.____cpythonsizelg" alt="variant">
-                </a>
-              </td>
-            </tr><tr>
-              <td>linux_64_python3.7.____cpythonsizemd</td>
-              <td>
-                <a href="https://dev.azure.com/conda-forge/feedstock-builds/_build/latest?definitionId=6337&branchName=master">
-                  <img src="https://dev.azure.com/conda-forge/feedstock-builds/_apis/build/status/spacy-model-nl-feedstock?branchName=master&jobName=linux&configuration=linux_64_python3.7.____cpythonsizemd" alt="variant">
-                </a>
-              </td>
-            </tr><tr>
-              <td>linux_64_python3.7.____cpythonsizesm</td>
-              <td>
-                <a href="https://dev.azure.com/conda-forge/feedstock-builds/_build/latest?definitionId=6337&branchName=master">
-                  <img src="https://dev.azure.com/conda-forge/feedstock-builds/_apis/build/status/spacy-model-nl-feedstock?branchName=master&jobName=linux&configuration=linux_64_python3.7.____cpythonsizesm" alt="variant">
+                <a href="https://dev.azure.com/conda-forge/feedstock-builds/_build/latest?definitionId=6337&branchName=main">
+                  <img src="https://dev.azure.com/conda-forge/feedstock-builds/_apis/build/status/spacy-model-nl-feedstock?branchName=main&jobName=linux&configuration=linux%20linux_64_python3.10.____cpythonsizesm" alt="variant">
                 </a>
               </td>
             </tr><tr>
               <td>linux_64_python3.8.____cpythonsizelg</td>
               <td>
-                <a href="https://dev.azure.com/conda-forge/feedstock-builds/_build/latest?definitionId=6337&branchName=master">
-                  <img src="https://dev.azure.com/conda-forge/feedstock-builds/_apis/build/status/spacy-model-nl-feedstock?branchName=master&jobName=linux&configuration=linux_64_python3.8.____cpythonsizelg" alt="variant">
+                <a href="https://dev.azure.com/conda-forge/feedstock-builds/_build/latest?definitionId=6337&branchName=main">
+                  <img src="https://dev.azure.com/conda-forge/feedstock-builds/_apis/build/status/spacy-model-nl-feedstock?branchName=main&jobName=linux&configuration=linux%20linux_64_python3.8.____cpythonsizelg" alt="variant">
                 </a>
               </td>
             </tr><tr>
               <td>linux_64_python3.8.____cpythonsizemd</td>
               <td>
-                <a href="https://dev.azure.com/conda-forge/feedstock-builds/_build/latest?definitionId=6337&branchName=master">
-                  <img src="https://dev.azure.com/conda-forge/feedstock-builds/_apis/build/status/spacy-model-nl-feedstock?branchName=master&jobName=linux&configuration=linux_64_python3.8.____cpythonsizemd" alt="variant">
+                <a href="https://dev.azure.com/conda-forge/feedstock-builds/_build/latest?definitionId=6337&branchName=main">
+                  <img src="https://dev.azure.com/conda-forge/feedstock-builds/_apis/build/status/spacy-model-nl-feedstock?branchName=main&jobName=linux&configuration=linux%20linux_64_python3.8.____cpythonsizemd" alt="variant">
                 </a>
               </td>
             </tr><tr>
               <td>linux_64_python3.8.____cpythonsizesm</td>
               <td>
-                <a href="https://dev.azure.com/conda-forge/feedstock-builds/_build/latest?definitionId=6337&branchName=master">
-                  <img src="https://dev.azure.com/conda-forge/feedstock-builds/_apis/build/status/spacy-model-nl-feedstock?branchName=master&jobName=linux&configuration=linux_64_python3.8.____cpythonsizesm" alt="variant">
+                <a href="https://dev.azure.com/conda-forge/feedstock-builds/_build/latest?definitionId=6337&branchName=main">
+                  <img src="https://dev.azure.com/conda-forge/feedstock-builds/_apis/build/status/spacy-model-nl-feedstock?branchName=main&jobName=linux&configuration=linux%20linux_64_python3.8.____cpythonsizesm" alt="variant">
                 </a>
               </td>
             </tr><tr>
               <td>linux_64_python3.9.____cpythonsizelg</td>
               <td>
-                <a href="https://dev.azure.com/conda-forge/feedstock-builds/_build/latest?definitionId=6337&branchName=master">
-                  <img src="https://dev.azure.com/conda-forge/feedstock-builds/_apis/build/status/spacy-model-nl-feedstock?branchName=master&jobName=linux&configuration=linux_64_python3.9.____cpythonsizelg" alt="variant">
+                <a href="https://dev.azure.com/conda-forge/feedstock-builds/_build/latest?definitionId=6337&branchName=main">
+                  <img src="https://dev.azure.com/conda-forge/feedstock-builds/_apis/build/status/spacy-model-nl-feedstock?branchName=main&jobName=linux&configuration=linux%20linux_64_python3.9.____cpythonsizelg" alt="variant">
                 </a>
               </td>
             </tr><tr>
               <td>linux_64_python3.9.____cpythonsizemd</td>
               <td>
-                <a href="https://dev.azure.com/conda-forge/feedstock-builds/_build/latest?definitionId=6337&branchName=master">
-                  <img src="https://dev.azure.com/conda-forge/feedstock-builds/_apis/build/status/spacy-model-nl-feedstock?branchName=master&jobName=linux&configuration=linux_64_python3.9.____cpythonsizemd" alt="variant">
+                <a href="https://dev.azure.com/conda-forge/feedstock-builds/_build/latest?definitionId=6337&branchName=main">
+                  <img src="https://dev.azure.com/conda-forge/feedstock-builds/_apis/build/status/spacy-model-nl-feedstock?branchName=main&jobName=linux&configuration=linux%20linux_64_python3.9.____cpythonsizemd" alt="variant">
                 </a>
               </td>
             </tr><tr>
               <td>linux_64_python3.9.____cpythonsizesm</td>
               <td>
-                <a href="https://dev.azure.com/conda-forge/feedstock-builds/_build/latest?definitionId=6337&branchName=master">
-                  <img src="https://dev.azure.com/conda-forge/feedstock-builds/_apis/build/status/spacy-model-nl-feedstock?branchName=master&jobName=linux&configuration=linux_64_python3.9.____cpythonsizesm" alt="variant">
+                <a href="https://dev.azure.com/conda-forge/feedstock-builds/_build/latest?definitionId=6337&branchName=main">
+                  <img src="https://dev.azure.com/conda-forge/feedstock-builds/_apis/build/status/spacy-model-nl-feedstock?branchName=main&jobName=linux&configuration=linux%20linux_64_python3.9.____cpythonsizesm" alt="variant">
                 </a>
               </td>
             </tr><tr>
               <td>osx_64_python3.10.____cpythonsizelg</td>
               <td>
-                <a href="https://dev.azure.com/conda-forge/feedstock-builds/_build/latest?definitionId=6337&branchName=master">
-                  <img src="https://dev.azure.com/conda-forge/feedstock-builds/_apis/build/status/spacy-model-nl-feedstock?branchName=master&jobName=osx&configuration=osx_64_python3.10.____cpythonsizelg" alt="variant">
+                <a href="https://dev.azure.com/conda-forge/feedstock-builds/_build/latest?definitionId=6337&branchName=main">
+                  <img src="https://dev.azure.com/conda-forge/feedstock-builds/_apis/build/status/spacy-model-nl-feedstock?branchName=main&jobName=osx&configuration=osx%20osx_64_python3.10.____cpythonsizelg" alt="variant">
                 </a>
               </td>
             </tr><tr>
               <td>osx_64_python3.10.____cpythonsizemd</td>
               <td>
-                <a href="https://dev.azure.com/conda-forge/feedstock-builds/_build/latest?definitionId=6337&branchName=master">
-                  <img src="https://dev.azure.com/conda-forge/feedstock-builds/_apis/build/status/spacy-model-nl-feedstock?branchName=master&jobName=osx&configuration=osx_64_python3.10.____cpythonsizemd" alt="variant">
+                <a href="https://dev.azure.com/conda-forge/feedstock-builds/_build/latest?definitionId=6337&branchName=main">
+                  <img src="https://dev.azure.com/conda-forge/feedstock-builds/_apis/build/status/spacy-model-nl-feedstock?branchName=main&jobName=osx&configuration=osx%20osx_64_python3.10.____cpythonsizemd" alt="variant">
                 </a>
               </td>
             </tr><tr>
               <td>osx_64_python3.10.____cpythonsizesm</td>
               <td>
-                <a href="https://dev.azure.com/conda-forge/feedstock-builds/_build/latest?definitionId=6337&branchName=master">
-                  <img src="https://dev.azure.com/conda-forge/feedstock-builds/_apis/build/status/spacy-model-nl-feedstock?branchName=master&jobName=osx&configuration=osx_64_python3.10.____cpythonsizesm" alt="variant">
-                </a>
-              </td>
-            </tr><tr>
-              <td>osx_64_python3.7.____cpythonsizelg</td>
-              <td>
-                <a href="https://dev.azure.com/conda-forge/feedstock-builds/_build/latest?definitionId=6337&branchName=master">
-                  <img src="https://dev.azure.com/conda-forge/feedstock-builds/_apis/build/status/spacy-model-nl-feedstock?branchName=master&jobName=osx&configuration=osx_64_python3.7.____cpythonsizelg" alt="variant">
-                </a>
-              </td>
-            </tr><tr>
-              <td>osx_64_python3.7.____cpythonsizemd</td>
-              <td>
-                <a href="https://dev.azure.com/conda-forge/feedstock-builds/_build/latest?definitionId=6337&branchName=master">
-                  <img src="https://dev.azure.com/conda-forge/feedstock-builds/_apis/build/status/spacy-model-nl-feedstock?branchName=master&jobName=osx&configuration=osx_64_python3.7.____cpythonsizemd" alt="variant">
-                </a>
-              </td>
-            </tr><tr>
-              <td>osx_64_python3.7.____cpythonsizesm</td>
-              <td>
-                <a href="https://dev.azure.com/conda-forge/feedstock-builds/_build/latest?definitionId=6337&branchName=master">
-                  <img src="https://dev.azure.com/conda-forge/feedstock-builds/_apis/build/status/spacy-model-nl-feedstock?branchName=master&jobName=osx&configuration=osx_64_python3.7.____cpythonsizesm" alt="variant">
+                <a href="https://dev.azure.com/conda-forge/feedstock-builds/_build/latest?definitionId=6337&branchName=main">
+                  <img src="https://dev.azure.com/conda-forge/feedstock-builds/_apis/build/status/spacy-model-nl-feedstock?branchName=main&jobName=osx&configuration=osx%20osx_64_python3.10.____cpythonsizesm" alt="variant">
                 </a>
               </td>
             </tr><tr>
               <td>osx_64_python3.8.____cpythonsizelg</td>
               <td>
-                <a href="https://dev.azure.com/conda-forge/feedstock-builds/_build/latest?definitionId=6337&branchName=master">
-                  <img src="https://dev.azure.com/conda-forge/feedstock-builds/_apis/build/status/spacy-model-nl-feedstock?branchName=master&jobName=osx&configuration=osx_64_python3.8.____cpythonsizelg" alt="variant">
+                <a href="https://dev.azure.com/conda-forge/feedstock-builds/_build/latest?definitionId=6337&branchName=main">
+                  <img src="https://dev.azure.com/conda-forge/feedstock-builds/_apis/build/status/spacy-model-nl-feedstock?branchName=main&jobName=osx&configuration=osx%20osx_64_python3.8.____cpythonsizelg" alt="variant">
                 </a>
               </td>
             </tr><tr>
               <td>osx_64_python3.8.____cpythonsizemd</td>
               <td>
-                <a href="https://dev.azure.com/conda-forge/feedstock-builds/_build/latest?definitionId=6337&branchName=master">
-                  <img src="https://dev.azure.com/conda-forge/feedstock-builds/_apis/build/status/spacy-model-nl-feedstock?branchName=master&jobName=osx&configuration=osx_64_python3.8.____cpythonsizemd" alt="variant">
+                <a href="https://dev.azure.com/conda-forge/feedstock-builds/_build/latest?definitionId=6337&branchName=main">
+                  <img src="https://dev.azure.com/conda-forge/feedstock-builds/_apis/build/status/spacy-model-nl-feedstock?branchName=main&jobName=osx&configuration=osx%20osx_64_python3.8.____cpythonsizemd" alt="variant">
                 </a>
               </td>
             </tr><tr>
               <td>osx_64_python3.8.____cpythonsizesm</td>
               <td>
-                <a href="https://dev.azure.com/conda-forge/feedstock-builds/_build/latest?definitionId=6337&branchName=master">
-                  <img src="https://dev.azure.com/conda-forge/feedstock-builds/_apis/build/status/spacy-model-nl-feedstock?branchName=master&jobName=osx&configuration=osx_64_python3.8.____cpythonsizesm" alt="variant">
+                <a href="https://dev.azure.com/conda-forge/feedstock-builds/_build/latest?definitionId=6337&branchName=main">
+                  <img src="https://dev.azure.com/conda-forge/feedstock-builds/_apis/build/status/spacy-model-nl-feedstock?branchName=main&jobName=osx&configuration=osx%20osx_64_python3.8.____cpythonsizesm" alt="variant">
                 </a>
               </td>
             </tr><tr>
               <td>osx_64_python3.9.____cpythonsizelg</td>
               <td>
-                <a href="https://dev.azure.com/conda-forge/feedstock-builds/_build/latest?definitionId=6337&branchName=master">
-                  <img src="https://dev.azure.com/conda-forge/feedstock-builds/_apis/build/status/spacy-model-nl-feedstock?branchName=master&jobName=osx&configuration=osx_64_python3.9.____cpythonsizelg" alt="variant">
+                <a href="https://dev.azure.com/conda-forge/feedstock-builds/_build/latest?definitionId=6337&branchName=main">
+                  <img src="https://dev.azure.com/conda-forge/feedstock-builds/_apis/build/status/spacy-model-nl-feedstock?branchName=main&jobName=osx&configuration=osx%20osx_64_python3.9.____cpythonsizelg" alt="variant">
                 </a>
               </td>
             </tr><tr>
               <td>osx_64_python3.9.____cpythonsizemd</td>
               <td>
-                <a href="https://dev.azure.com/conda-forge/feedstock-builds/_build/latest?definitionId=6337&branchName=master">
-                  <img src="https://dev.azure.com/conda-forge/feedstock-builds/_apis/build/status/spacy-model-nl-feedstock?branchName=master&jobName=osx&configuration=osx_64_python3.9.____cpythonsizemd" alt="variant">
+                <a href="https://dev.azure.com/conda-forge/feedstock-builds/_build/latest?definitionId=6337&branchName=main">
+                  <img src="https://dev.azure.com/conda-forge/feedstock-builds/_apis/build/status/spacy-model-nl-feedstock?branchName=main&jobName=osx&configuration=osx%20osx_64_python3.9.____cpythonsizemd" alt="variant">
                 </a>
               </td>
             </tr><tr>
               <td>osx_64_python3.9.____cpythonsizesm</td>
               <td>
-                <a href="https://dev.azure.com/conda-forge/feedstock-builds/_build/latest?definitionId=6337&branchName=master">
-                  <img src="https://dev.azure.com/conda-forge/feedstock-builds/_apis/build/status/spacy-model-nl-feedstock?branchName=master&jobName=osx&configuration=osx_64_python3.9.____cpythonsizesm" alt="variant">
+                <a href="https://dev.azure.com/conda-forge/feedstock-builds/_build/latest?definitionId=6337&branchName=main">
+                  <img src="https://dev.azure.com/conda-forge/feedstock-builds/_apis/build/status/spacy-model-nl-feedstock?branchName=main&jobName=osx&configuration=osx%20osx_64_python3.9.____cpythonsizesm" alt="variant">
                 </a>
               </td>
             </tr><tr>
               <td>win_64_python3.10.____cpythonsizelg</td>
               <td>
-                <a href="https://dev.azure.com/conda-forge/feedstock-builds/_build/latest?definitionId=6337&branchName=master">
-                  <img src="https://dev.azure.com/conda-forge/feedstock-builds/_apis/build/status/spacy-model-nl-feedstock?branchName=master&jobName=win&configuration=win_64_python3.10.____cpythonsizelg" alt="variant">
+                <a href="https://dev.azure.com/conda-forge/feedstock-builds/_build/latest?definitionId=6337&branchName=main">
+                  <img src="https://dev.azure.com/conda-forge/feedstock-builds/_apis/build/status/spacy-model-nl-feedstock?branchName=main&jobName=win&configuration=win%20win_64_python3.10.____cpythonsizelg" alt="variant">
                 </a>
               </td>
             </tr><tr>
               <td>win_64_python3.10.____cpythonsizemd</td>
               <td>
-                <a href="https://dev.azure.com/conda-forge/feedstock-builds/_build/latest?definitionId=6337&branchName=master">
-                  <img src="https://dev.azure.com/conda-forge/feedstock-builds/_apis/build/status/spacy-model-nl-feedstock?branchName=master&jobName=win&configuration=win_64_python3.10.____cpythonsizemd" alt="variant">
+                <a href="https://dev.azure.com/conda-forge/feedstock-builds/_build/latest?definitionId=6337&branchName=main">
+                  <img src="https://dev.azure.com/conda-forge/feedstock-builds/_apis/build/status/spacy-model-nl-feedstock?branchName=main&jobName=win&configuration=win%20win_64_python3.10.____cpythonsizemd" alt="variant">
                 </a>
               </td>
             </tr><tr>
               <td>win_64_python3.10.____cpythonsizesm</td>
               <td>
-                <a href="https://dev.azure.com/conda-forge/feedstock-builds/_build/latest?definitionId=6337&branchName=master">
-                  <img src="https://dev.azure.com/conda-forge/feedstock-builds/_apis/build/status/spacy-model-nl-feedstock?branchName=master&jobName=win&configuration=win_64_python3.10.____cpythonsizesm" alt="variant">
-                </a>
-              </td>
-            </tr><tr>
-              <td>win_64_python3.7.____cpythonsizelg</td>
-              <td>
-                <a href="https://dev.azure.com/conda-forge/feedstock-builds/_build/latest?definitionId=6337&branchName=master">
-                  <img src="https://dev.azure.com/conda-forge/feedstock-builds/_apis/build/status/spacy-model-nl-feedstock?branchName=master&jobName=win&configuration=win_64_python3.7.____cpythonsizelg" alt="variant">
-                </a>
-              </td>
-            </tr><tr>
-              <td>win_64_python3.7.____cpythonsizemd</td>
-              <td>
-                <a href="https://dev.azure.com/conda-forge/feedstock-builds/_build/latest?definitionId=6337&branchName=master">
-                  <img src="https://dev.azure.com/conda-forge/feedstock-builds/_apis/build/status/spacy-model-nl-feedstock?branchName=master&jobName=win&configuration=win_64_python3.7.____cpythonsizemd" alt="variant">
-                </a>
-              </td>
-            </tr><tr>
-              <td>win_64_python3.7.____cpythonsizesm</td>
-              <td>
-                <a href="https://dev.azure.com/conda-forge/feedstock-builds/_build/latest?definitionId=6337&branchName=master">
-                  <img src="https://dev.azure.com/conda-forge/feedstock-builds/_apis/build/status/spacy-model-nl-feedstock?branchName=master&jobName=win&configuration=win_64_python3.7.____cpythonsizesm" alt="variant">
+                <a href="https://dev.azure.com/conda-forge/feedstock-builds/_build/latest?definitionId=6337&branchName=main">
+                  <img src="https://dev.azure.com/conda-forge/feedstock-builds/_apis/build/status/spacy-model-nl-feedstock?branchName=main&jobName=win&configuration=win%20win_64_python3.10.____cpythonsizesm" alt="variant">
                 </a>
               </td>
             </tr><tr>
               <td>win_64_python3.8.____cpythonsizelg</td>
               <td>
-                <a href="https://dev.azure.com/conda-forge/feedstock-builds/_build/latest?definitionId=6337&branchName=master">
-                  <img src="https://dev.azure.com/conda-forge/feedstock-builds/_apis/build/status/spacy-model-nl-feedstock?branchName=master&jobName=win&configuration=win_64_python3.8.____cpythonsizelg" alt="variant">
+                <a href="https://dev.azure.com/conda-forge/feedstock-builds/_build/latest?definitionId=6337&branchName=main">
+                  <img src="https://dev.azure.com/conda-forge/feedstock-builds/_apis/build/status/spacy-model-nl-feedstock?branchName=main&jobName=win&configuration=win%20win_64_python3.8.____cpythonsizelg" alt="variant">
                 </a>
               </td>
             </tr><tr>
               <td>win_64_python3.8.____cpythonsizemd</td>
               <td>
-                <a href="https://dev.azure.com/conda-forge/feedstock-builds/_build/latest?definitionId=6337&branchName=master">
-                  <img src="https://dev.azure.com/conda-forge/feedstock-builds/_apis/build/status/spacy-model-nl-feedstock?branchName=master&jobName=win&configuration=win_64_python3.8.____cpythonsizemd" alt="variant">
+                <a href="https://dev.azure.com/conda-forge/feedstock-builds/_build/latest?definitionId=6337&branchName=main">
+                  <img src="https://dev.azure.com/conda-forge/feedstock-builds/_apis/build/status/spacy-model-nl-feedstock?branchName=main&jobName=win&configuration=win%20win_64_python3.8.____cpythonsizemd" alt="variant">
                 </a>
               </td>
             </tr><tr>
               <td>win_64_python3.8.____cpythonsizesm</td>
               <td>
-                <a href="https://dev.azure.com/conda-forge/feedstock-builds/_build/latest?definitionId=6337&branchName=master">
-                  <img src="https://dev.azure.com/conda-forge/feedstock-builds/_apis/build/status/spacy-model-nl-feedstock?branchName=master&jobName=win&configuration=win_64_python3.8.____cpythonsizesm" alt="variant">
+                <a href="https://dev.azure.com/conda-forge/feedstock-builds/_build/latest?definitionId=6337&branchName=main">
+                  <img src="https://dev.azure.com/conda-forge/feedstock-builds/_apis/build/status/spacy-model-nl-feedstock?branchName=main&jobName=win&configuration=win%20win_64_python3.8.____cpythonsizesm" alt="variant">
                 </a>
               </td>
             </tr><tr>
               <td>win_64_python3.9.____cpythonsizelg</td>
               <td>
-                <a href="https://dev.azure.com/conda-forge/feedstock-builds/_build/latest?definitionId=6337&branchName=master">
-                  <img src="https://dev.azure.com/conda-forge/feedstock-builds/_apis/build/status/spacy-model-nl-feedstock?branchName=master&jobName=win&configuration=win_64_python3.9.____cpythonsizelg" alt="variant">
+                <a href="https://dev.azure.com/conda-forge/feedstock-builds/_build/latest?definitionId=6337&branchName=main">
+                  <img src="https://dev.azure.com/conda-forge/feedstock-builds/_apis/build/status/spacy-model-nl-feedstock?branchName=main&jobName=win&configuration=win%20win_64_python3.9.____cpythonsizelg" alt="variant">
                 </a>
               </td>
             </tr><tr>
               <td>win_64_python3.9.____cpythonsizemd</td>
               <td>
-                <a href="https://dev.azure.com/conda-forge/feedstock-builds/_build/latest?definitionId=6337&branchName=master">
-                  <img src="https://dev.azure.com/conda-forge/feedstock-builds/_apis/build/status/spacy-model-nl-feedstock?branchName=master&jobName=win&configuration=win_64_python3.9.____cpythonsizemd" alt="variant">
+                <a href="https://dev.azure.com/conda-forge/feedstock-builds/_build/latest?definitionId=6337&branchName=main">
+                  <img src="https://dev.azure.com/conda-forge/feedstock-builds/_apis/build/status/spacy-model-nl-feedstock?branchName=main&jobName=win&configuration=win%20win_64_python3.9.____cpythonsizemd" alt="variant">
                 </a>
               </td>
             </tr><tr>
               <td>win_64_python3.9.____cpythonsizesm</td>
               <td>
-                <a href="https://dev.azure.com/conda-forge/feedstock-builds/_build/latest?definitionId=6337&branchName=master">
-                  <img src="https://dev.azure.com/conda-forge/feedstock-builds/_apis/build/status/spacy-model-nl-feedstock?branchName=master&jobName=win&configuration=win_64_python3.9.____cpythonsizesm" alt="variant">
+                <a href="https://dev.azure.com/conda-forge/feedstock-builds/_build/latest?definitionId=6337&branchName=main">
+                  <img src="https://dev.azure.com/conda-forge/feedstock-builds/_apis/build/status/spacy-model-nl-feedstock?branchName=main&jobName=win&configuration=win%20win_64_python3.9.____cpythonsizesm" alt="variant">
                 </a>
               </td>
             </tr>
@@ -307,16 +244,41 @@ conda config --add channels conda-forge
 conda config --set channel_priority strict
 ```
 
-Once the `conda-forge` channel has been enabled, `spacy-model-nl_core_news_lg, spacy-model-nl_core_news_md, spacy-model-nl_core_news_sm` can be installed with:
+Once the `conda-forge` channel has been enabled, `spacy-model-nl_core_news_lg, spacy-model-nl_core_news_md, spacy-model-nl_core_news_sm` can be installed with `conda`:
 
 ```
 conda install spacy-model-nl_core_news_lg spacy-model-nl_core_news_md spacy-model-nl_core_news_sm
 ```
 
-It is possible to list all of the versions of `spacy-model-nl_core_news_lg` available on your platform with:
+or with `mamba`:
+
+```
+mamba install spacy-model-nl_core_news_lg spacy-model-nl_core_news_md spacy-model-nl_core_news_sm
+```
+
+It is possible to list all of the versions of `spacy-model-nl_core_news_lg` available on your platform with `conda`:
 
 ```
 conda search spacy-model-nl_core_news_lg --channel conda-forge
+```
+
+or with `mamba`:
+
+```
+mamba search spacy-model-nl_core_news_lg --channel conda-forge
+```
+
+Alternatively, `mamba repoquery` may provide more information:
+
+```
+# Search all versions available on your platform:
+mamba repoquery search spacy-model-nl_core_news_lg --channel conda-forge
+
+# List packages depending on `spacy-model-nl_core_news_lg`:
+mamba repoquery whoneeds spacy-model-nl_core_news_lg --channel conda-forge
+
+# List dependencies of `spacy-model-nl_core_news_lg`:
+mamba repoquery depends spacy-model-nl_core_news_lg --channel conda-forge
 ```
 
 
@@ -334,10 +296,12 @@ for each of the installable packages. Such a repository is known as a *feedstock
 A feedstock is made up of a conda recipe (the instructions on what and how to build
 the package) and the necessary configurations for automatic building using freely
 available continuous integration services. Thanks to the awesome service provided by
-[CircleCI](https://circleci.com/), [AppVeyor](https://www.appveyor.com/)
-and [TravisCI](https://travis-ci.com/) it is possible to build and upload installable
-packages to the [conda-forge](https://anaconda.org/conda-forge)
-[Anaconda-Cloud](https://anaconda.org/) channel for Linux, Windows and OSX respectively.
+[Azure](https://azure.microsoft.com/en-us/services/devops/), [GitHub](https://github.com/),
+[CircleCI](https://circleci.com/), [AppVeyor](https://www.appveyor.com/),
+[Drone](https://cloud.drone.io/welcome), and [TravisCI](https://travis-ci.com/)
+it is possible to build and upload installable packages to the
+[conda-forge](https://anaconda.org/conda-forge) [Anaconda-Cloud](https://anaconda.org/)
+channel for Linux, Windows and OSX respectively.
 
 To manage the continuous integration and simplify feedstock maintenance
 [conda-smithy](https://github.com/conda-forge/conda-smithy) has been developed.
