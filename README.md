@@ -1,11 +1,11 @@
-About spacy-model-nl
-====================
+About spacy-model-nl-feedstock
+==============================
+
+Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/spacy-model-nl-feedstock/blob/main/LICENSE.txt)
 
 Home: https://spacy.io
 
 Package license: CC-BY-SA-4.0
-
-Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/spacy-model-nl-feedstock/blob/main/LICENSE.txt)
 
 Summary: Dutch multi-task CNN trained on the Universal Dependencies and WikiNER corpus.
 
