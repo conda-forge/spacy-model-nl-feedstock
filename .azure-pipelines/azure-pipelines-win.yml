@@ -26,6 +26,15 @@ jobs:
       win_64_python3.11.____cpythonsizesm:
         CONFIG: win_64_python3.11.____cpythonsizesm
         UPLOAD_PACKAGES: 'True'
+      win_64_python3.12.____cpythonsizelg:
+        CONFIG: win_64_python3.12.____cpythonsizelg
+        UPLOAD_PACKAGES: 'True'
+      win_64_python3.12.____cpythonsizemd:
+        CONFIG: win_64_python3.12.____cpythonsizemd
+        UPLOAD_PACKAGES: 'True'
+      win_64_python3.12.____cpythonsizesm:
+        CONFIG: win_64_python3.12.____cpythonsizesm
+        UPLOAD_PACKAGES: 'True'
       win_64_python3.8.____cpythonsizelg:
         CONFIG: win_64_python3.8.____cpythonsizelg
         UPLOAD_PACKAGES: 'True'
@@ -75,6 +84,9 @@ jobs:
         PYTHONUNBUFFERED: 1
         CONFIG: $(CONFIG)
         CI: azure
+        flow_run_id: azure_$(Build.BuildNumber).$(System.JobAttempt)
+        remote_url: $(Build.Repository.Uri)
+        sha: $(Build.SourceVersion)
         UPLOAD_PACKAGES: $(UPLOAD_PACKAGES)
         UPLOAD_TEMP: $(UPLOAD_TEMP)
         BINSTAR_TOKEN: $(BINSTAR_TOKEN)
