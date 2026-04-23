@@ -32,16 +32,16 @@ jobs:
         CONFIG: linux_64_python3.11.____cpythonsizesm
         UPLOAD_PACKAGES: 'True'
         DOCKER_IMAGE: quay.io/condaforge/linux-anvil-cos7-x86_64
-      linux_64_python3.8.____cpythonsizelg:
-        CONFIG: linux_64_python3.8.____cpythonsizelg
+      linux_64_python3.12.____cpythonsizelg:
+        CONFIG: linux_64_python3.12.____cpythonsizelg
         UPLOAD_PACKAGES: 'True'
         DOCKER_IMAGE: quay.io/condaforge/linux-anvil-cos7-x86_64
-      linux_64_python3.8.____cpythonsizemd:
-        CONFIG: linux_64_python3.8.____cpythonsizemd
+      linux_64_python3.12.____cpythonsizemd:
+        CONFIG: linux_64_python3.12.____cpythonsizemd
         UPLOAD_PACKAGES: 'True'
         DOCKER_IMAGE: quay.io/condaforge/linux-anvil-cos7-x86_64
-      linux_64_python3.8.____cpythonsizesm:
-        CONFIG: linux_64_python3.8.____cpythonsizesm
+      linux_64_python3.12.____cpythonsizesm:
+        CONFIG: linux_64_python3.12.____cpythonsizesm
         UPLOAD_PACKAGES: 'True'
         DOCKER_IMAGE: quay.io/condaforge/linux-anvil-cos7-x86_64
       linux_64_python3.9.____cpythonsizelg:
@@ -57,6 +57,7 @@ jobs:
         UPLOAD_PACKAGES: 'True'
         DOCKER_IMAGE: quay.io/condaforge/linux-anvil-cos7-x86_64
   timeoutInMinutes: 360
+  variables: {}
 
   steps:
   # configure qemu binfmt-misc running.  This allows us to run docker containers
@@ -69,6 +70,9 @@ jobs:
 
   - script: |
         export CI=azure
+        export flow_run_id=azure_$(Build.BuildNumber).$(System.JobAttempt)
+        export remote_url=$(Build.Repository.Uri)
+        export sha=$(Build.SourceVersion)
         export GIT_BRANCH=$BUILD_SOURCEBRANCHNAME
         export FEEDSTOCK_NAME=$(basename ${BUILD_REPOSITORY_NAME})
         if [[ "${BUILD_REASON:-}" == "PullRequest" ]]; then
